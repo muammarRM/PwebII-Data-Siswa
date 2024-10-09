@@ -1,0 +1,102 @@
+/* Reset beberapa style default browser */
+body, h1, form, table {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e7f0fd; /* Warna biru muda sebagai background utama */
+    padding: 20px;
+}
+
+h1 {
+    color: #205375; /* Warna biru yang lebih gelap untuk judul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Tambahkan sedikit bayangan untuk membedakan */
+}
+
+th, td {
+    border: 1px solid #b1cbe4; /* Warna biru muda untuk border */
+    padding: 10px; /* Padding yang lebih besar untuk estetika */
+    text-align: center; /* Konten di tengah */
+    vertical-align: middle; /* Vertikal di tengah */
+    color: #333;
+}
+
+th {
+    background-color: #d4e2f0; /* Warna biru muda untuk header tabel */
+    color: #205375; /* Warna teks untuk header */
+    text-transform: uppercase; /* Kapitalisasi teks header */
+}
+
+/* Styling untuk gambar di tabel */
+img {
+    width: auto; /* Auto-width untuk menghindari distorsi */
+    height: 100px; /* Tetapkan tinggi tetap */
+    border-radius: 5px; /* Tambahkan border-radius untuk membuat gambar lebih halus */
+}
+
+/* Styling untuk form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #b1cbe4; /* Warna biru muda untuk border input dan textarea */
+}
+
+input[type="submit"],
+input[type="button"] {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #549cd7; /* Warna biru muda untuk tombol */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #4178a8; /* Warna biru yang lebih gelap saat hover */
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Styling link */
+a {
+    color: #549cd7; /* Warna biru muda untuk link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
